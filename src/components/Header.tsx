@@ -48,7 +48,7 @@ const Header = () => {
           </div>
           
           <div className="hidden lg:block">
-            <Link to="/contact" className="px-4 py-2 text-sm font-bold text-white bg-secondary rounded-lg hover:bg-red-700 transition-colors">
+            <Link to="/appointment" className="px-4 py-2 text-sm font-bold text-white bg-secondary rounded-lg hover:bg-red-700 transition-colors">
               Book Appointment
             </Link>
           </div>
@@ -76,7 +76,7 @@ const Header = () => {
                   {link.name}
                 </NavLink>
               ))}
-              <Link to="/contact" onClick={() => setIsOpen(false)} className="w-full px-4 py-2 mt-2 text-center text-sm font-bold text-white bg-secondary rounded-lg hover:bg-red-700 transition-colors">
+              <Link to="/appointment" onClick={() => setIsOpen(false)} className="w-full px-4 py-2 mt-2 text-center text-sm font-bold text-white bg-secondary rounded-lg hover:bg-red-700 transition-colors">
                 Book Appointment
               </Link>
             </div>

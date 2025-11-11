@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -9,11 +9,23 @@ const FAQ = () => {
     },
     {
       question: "What are the visiting Hour at the hospital?",
-      answer: "Generally in the morning 10:00 am – 11:00 am and in evening 4.30 pm to 5.30 pm."
+      answer: "Generally in the morning 10:00 am – 00 am and in evening 4.30 pm to 5.30 pm."
     },
     {
       question: "Accepting Insurance Cards?",
-      answer: "We accept insurance. To know more click here."
+      answer: (
+        <>
+          We accept insurance. To know more{" "}
+          <a
+            href="/Doc/KDMSH-EMPANELLED-TPA-NEW-LIST.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-teal-600 hover:underline"
+          >
+            click here
+          </a>.
+        </>
+      ),
     },
     {
       question: "Can I bring my own food to hospital?",
