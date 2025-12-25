@@ -82,7 +82,7 @@ export const doctorData = [
             { name: "Dr. Swaarup Sinha", degrees: "(MBBS, DIPLOMA IN EMERGENCY MEDICINE, FELLOWSHIP IN CRITICAL CARE)", specialty: "Emergency Medicine", day: "Mon, Tue, Sat", timing: "01:00 pm" },
             { name: "Dr. Mrinal Baidya", degrees: "(MBBS CAL, DIP, MD (MED)", specialty: "Tropical Medicine", day: "Mon, Sat", timing: "4:00-6:00 pm" },
             { name: "Dr. Nazimul Islam Sardar", degrees: "MBBS, MS", specialty: "General Lap Surgeon", day: "Mon, Sat", timing: "2.30 pm (On Call)" },
-            { name: "Dr. Mansur Ali", degrees: "MBBS, MS", specialty: "(MBBS CAL, DIP, MD (MED)", day: "Thu", timing: "3.00 pm" },
+            { name: "Dr. Mansur Ali", degrees: "MBBS, MS", specialty: "General Lap Surgeon", day: "Thu", timing: "3.00 pm" },
             { name: "Dr. Tanusree Kundu", degrees: "(MBBS, DNB-GEN SURG, MCH-PAEDIATRIC SURG)", specialty: "Peadiatric Surgeon", day: "Thu & Sat", timing: "06.00 pm" },
             { name: "Dr. Rajdeep Bhakta", degrees: "(MBBS, MS)", specialty: "General Lap Surgeon", day: "Mon, Fri", timing: "04.00pm" },
             { name: "Dr. Arko Prabho Nath", degrees: "(MBBS , MS, GENERAL SURGERY FIAGES(LAPAROSCOPY)& EFIAGES (ENDOSCOPY)", specialty: "General Lap Surgeon", day: "Tur/Fri ,Sat", timing: "4.00pm/5.00pm, by Appt" },
